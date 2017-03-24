@@ -4,6 +4,6 @@
 ## Naslov projekta: eHealth 
 ### Tema: Online zakazivanje pregleda
 
-#### 1. Majra Caluk
-#### 2. Jasmina Celigija
-#### 3. Merisa Cicic
+#### 1. Majra Èaluk
+#### 2. Jasmina Èeligija
+#### 3. Merisa Èièiæ

@@ -18,19 +18,19 @@ Zdravstvene ustanove koje bi pružile svojim korisnicima moguænosti koje nudi ova
 
 Lociranje bolnice:
 
-Služi za prikaz mape grada Sarajeva, sa oznacenom trenutnom lokacijom korisnika, te najbližim bolnicama.
-Korisnik ima mogucnost da sam pronade željenu bolnicu.
+Služi za prikaz mape grada Sarajeva, sa oznaèenom trenutnom lokacijom korisnika, te najbližim bolnicama.
+Korisnik ima moguænost da sam pronade željenu bolnicu.
 
-Online narucivanje lijeka:
+Online naruèivanje lijeka:
 
-Uz pretpostavku da je korisnik vec obavio pregled, i da zna koji su mu lijekovi potrebni, aplikacija mu nudi mogucnost online narucivanja. Korisnik je dužan unijeti
-adresu i željeni lijek, a zatim ima na raspolaganju dvije mogucnosti placanja: placanje karticom i placanje gotovinom. Takoder, korisnik ima mogucnost pregleda svoje
-historije narucivanja.
+Uz pretpostavku da je korisnik veæ obavio pregled, i da zna koji su mu lijekovi potrebni, aplikacija mu nudi moguænost online naruèivanja. Korisnik je dužan unijeti
+adresu i željeni lijek, a zatim ima na raspolaganju dvije moguænosti plaæanja: plaæanje karticom i plaæanje gotovinom. Takoder, korisnik ima moguænost pregleda svoje
+historije naruèivanja.
 
 Online zakazivanje pregleda:
 
-Izborom ove opcije, korisniku se nudi mogucnost izbora zdravstvene ustanove u kojoj želi obaviti pregled. Nakon odabira bolnice, prikazuje mu se lista postojecih odjela.
-Zatim korisnik ima uvid u spisak doktora i slobodnih termina, te može zakazati pregled, pri cemu to doktor mora potvrditi.
+Izborom ove opcije, korisniku se nudi moguænost izbora zdravstvene ustanove u kojoj želi obaviti pregled. Nakon odabira bolnice, prikazuje mu se lista postojeæih odjela.
+Zatim korisnik ima uvid u spisak doktora i slobodnih termina, te može zakazati pregled, pri èemu to doktor mora potvrditi.
 
 
 ## FUNKCIONALNOSTI
@@ -41,10 +41,10 @@ Zatim korisnik ima uvid u spisak doktora i slobodnih termina, te može zakazati p
 
 ## AKTERI
 
-* korisnik
-* doktor
-* dostavljaè
-* sistem za autorizaciju kartica
+* korisnik (korisnik usluga naše aplikacije)
+* doktor (osoba koja vrši pregled, i ima pravo da potvrdi/otkaže termin)
+* dostavljaè (osoba koja dostavlja naruèeni lijek korisniku)
+* sistem za autorizaciju kartica (sistem koji ce uèestovati u izvedbi "plaæanje karticom", tj. provjeravati karticu korisnika)
 
 
 

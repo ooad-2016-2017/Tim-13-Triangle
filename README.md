@@ -35,9 +35,17 @@ Zatim korisnik ima uvid u spisak doktora i slobodnih termina, te može zakazati p
 
 ## Funkcionalnosti
 
-* lociranje zdravstvenih ustanova
-* online zakazivanje pregleda
-* online naruèivanje lijeka
+* moguænost registracije korisnika
+* moguænost prijave korisnika
+* moguænost lociranja najbliže zdravstvene ustanove
+* moguænost naruèivanja lijeka
+* moguænost validacije lijeka
+* moguænost pregleda historije naruèivanja
+* moguænost odabira odjela
+* moguænost odabira doktora
+* moguænost izbora i potvrde termina
+
+
 
 ## Akteri
 

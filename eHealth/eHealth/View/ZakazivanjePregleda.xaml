@@ -1,0 +1,144 @@
+﻿<Page
+    x:Class="eHealth.View.ZakazivanjePregleda"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:eHealth.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="743.802">
+
+    <Grid Background="#FF80A4E0">
+        <StackPanel HorizontalAlignment="Left" Height="99" VerticalAlignment="Top" Width="1440" >
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF15386C" Offset="0.158"/>
+                    <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                    <GradientStop Color="#FF25569D" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Zakazivanje pregleda"  Height="71" Width="668" FontFamily="Cambria Math" FontSize="72" Foreground="White" Margin="386,10" />
+        </StackPanel>
+        <ComboBox HorizontalAlignment="Left" Margin="748,167,0,0" VerticalAlignment="Top" Width="352" Height="42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="450,165,0,0" TextWrapping="Wrap" Text="Izaberite bolnicu" VerticalAlignment="Top" FontFamily="Cambria Math" FontSize="36" Foreground="#FF000F60"/>
+        <StackPanel HorizontalAlignment="Left" Height="635" Margin="0,99,0,0" VerticalAlignment="Top" Width="378">
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Bottom" FontFamily="Cambria Math" FontSize="36" Foreground="#FF000F60" Margin="78,0" >
+                <Run Text="Izaber"/>
+                <Run Text="i"/>
+                <Run Text=" odjel"/>
+            </TextBlock>
+            <Button Content="Porodična medicina" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,15,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Oftamologija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Dermatologija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White" Click="Button_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Pedijatrija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Otorinolaringologija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+
+            </Button>
+            <Button Content="Ginekologija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Urologija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Pulmologija" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="64" Margin="0,10,0,0" FontFamily="Cambria Math" FontSize="24" Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF15386C" Offset="0.158"/>
+                        <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                        <GradientStop Color="#FF25569D" Offset="1"/>
+
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="450,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Cambria Math" FontSize="36" Foreground="#FF000F60">
+            <Run Text="Dostupni ljekari"/>
+            <Run Text=":"/>
+            <Run Text=" "/>
+        </TextBlock>
+        <ListView HorizontalAlignment="Left" Height="442" VerticalAlignment="Top" Width="319" Margin="450,292,0,0">
+            <ListView.Background>
+
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF15386C" Offset="0.158"/>
+                    <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                    <GradientStop Color="#FF25569D" Offset="1"/>
+
+                </LinearGradientBrush>
+            </ListView.Background>
+        </ListView>
+        <TextBlock HorizontalAlignment="Left" Margin="781,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Cambria Math" FontSize="36" Foreground="#FF000F60" Text="Slobodni termini:"/>
+        <ListView HorizontalAlignment="Left" Height="442" VerticalAlignment="Top" Width="319" Margin="781,292,0,0">
+            <ListView.Background>
+
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF15386C" Offset="0.158"/>
+                    <GradientStop Color="#FF0B3E89" Offset="0.569"/>
+                    <GradientStop Color="#FF25569D" Offset="1"/>
+
+                </LinearGradientBrush>
+            </ListView.Background>
+        </ListView>
+        <Button  Content="Potvrdi termin"  HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="253" Margin="1146,656,0,0" FontFamily="Cambria Math" FontSize="36" Background="#FF49D180" Foreground="#FFFFFF" Click="Button_Click_1"/>
+        <Button  Content="Odustani"  HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="253" Margin="1146,556,0,0" FontFamily="Cambria Math" FontSize="36" Background="#FFD1495D" Foreground="#FFFFFF" RenderTransformOrigin="3.232,2.199" />
+
+    </Grid>
+</Page>

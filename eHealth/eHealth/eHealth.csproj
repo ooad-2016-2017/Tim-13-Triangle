@@ -99,6 +99,14 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Administrator.cs" />
+    <Compile Include="Models\Doktor.cs" />
+    <Compile Include="Models\Korisnik.cs" />
+    <Compile Include="Models\Lijek.cs" />
+    <Compile Include="Models\Narudzba.cs" />
+    <Compile Include="Models\Osoba.cs" />
+    <Compile Include="Models\Pregled.cs" />
+    <Compile Include="Models\StavkaNarudzbe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\NaručivanjeLijekova.xaml.cs">
       <DependentUpon>NaručivanjeLijekova.xaml</DependentUpon>
@@ -175,8 +183,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Reference Include="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
